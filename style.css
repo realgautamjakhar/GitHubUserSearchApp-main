@@ -46,6 +46,7 @@
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 700px;
 }
 
 /* Search  */
@@ -147,7 +148,7 @@
   justify-content: space-evenly;
   text-align: center;
   /* width: fit-content; */
-  gap: 1rem;
+  /* gap: 1rem; */
   background-color: var(--box-bg);
   box-shadow: var(--box-shadow);
   border-radius: var(--box-radius);
