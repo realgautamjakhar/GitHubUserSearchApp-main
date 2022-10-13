@@ -45,7 +45,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: fit-content;
+  flex-wrap: wrap;
 }
 
 /* Search  */
@@ -94,12 +94,12 @@
 
 .user-details{
   display: grid;
-  width: auto;
   background-color: var(--box-bg);
   box-shadow: var(--box-shadow);
   border-radius: var(--box-radius);
   padding: var(--padding-regular);
   margin-top: 2rem;
+  grid-template-columns: repeat(3,auto);
   grid-template-areas: "image name joined"
                         "image name joined"
                         "image para para"
@@ -146,6 +146,8 @@
   color: var(--text-color);
   justify-content: space-evenly;
   text-align: center;
+  /* width: fit-content; */
+  gap: 1rem;
   background-color: var(--box-bg);
   box-shadow: var(--box-shadow);
   border-radius: var(--box-radius);
