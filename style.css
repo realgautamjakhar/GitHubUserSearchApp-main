@@ -224,6 +224,7 @@
   }
   .image{
     margin: auto;
+    margin-top: 1rem;
   }
   .flex-baseline{
     flex-direction: column;
