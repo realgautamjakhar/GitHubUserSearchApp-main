@@ -52,7 +52,7 @@
 .search-section{
   display: grid;
   margin-top: 2rem;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 10% auto 20%;
   padding: var(--padding-regular);
   justify-content: baseline;
   box-shadow: var(--box-shadow);
@@ -228,8 +228,9 @@
     align-items: center;
   }
   .search-section{
-    width: min-content;
-    margin: auto;
+    grid-template-columns: 5% auto auto;
+    /* width: min-content; */
+    /* margin: auto; */
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
